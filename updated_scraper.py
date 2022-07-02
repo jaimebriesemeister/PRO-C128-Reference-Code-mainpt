@@ -54,7 +54,7 @@ def scrape():
 
         browser.find_element(By.XPATH, value='//*[@id="primary_column"]/footer/div/div/div/nav/span[2]/a').click()
 
-        print(f"Page {i} scraping completed")
+        print(f"Coleta de dados da página {i} concluída")
 
 
 # Chamando o método  
