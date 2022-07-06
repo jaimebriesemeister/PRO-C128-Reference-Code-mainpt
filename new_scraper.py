@@ -45,7 +45,7 @@ planet_df_1 = pd.read_csv("updated_scraped_data.csv")
 for index, row in planet_df_1.iterrows():
     print(row['hyperlink'])
     scrape_more_data(row['hyperlink'])
-    print(f"Coleta de dados do hyperlink {index+1} concluída")
+    print(f"Coleta de dados do hiperlink {index+1} concluída")
 
 
 
